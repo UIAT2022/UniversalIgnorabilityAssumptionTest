@@ -6,6 +6,7 @@ Universal Ignorability Assumption Test
 
 import pandas as pd
 import numpy as np
+
 import rpy2.robjects as ro
 from rpy2.robjects.packages import importr
 from rpy2.robjects import pandas2ri
@@ -13,6 +14,9 @@ from rpy2.robjects.conversion import localconverter
 import rpy2.robjects.packages as rpackages
 from rpy2.robjects import numpy2ri
 from rpy2.robjects.vectors import StrVector
+
+from statsmodels.stats.anova import anova_lm 
+import statsmodels.formula.api as smf
 
 required_packages = ['base', 'forecast', 'CondIndTests','devtools'] # list of required R packages 
 if all(rpackages.isinstalled(x) for x in required_packages):
