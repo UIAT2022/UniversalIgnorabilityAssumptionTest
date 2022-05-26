@@ -29,7 +29,8 @@ example
 ```python
 import uiat
 
-UIAT = uiat.UniversalIgnorabilityAssumptionTest(cause=A,effect=Y,explorer=Z,covariates=C,dtype="continuous",verbose=False) #explorer means an UIV or a surrogate for UIV.
+UIAT = uiat.UniversalIgnorabilityAssumptionTest(cause=A,effect=Y,explorer=Z,covariates=C,dtype="continuous",verbose=False) 
+#explorer means an UIV or a surrogate for UIV. dtype means the type of data. Now the package provides options for continuous case or mixed case.
 
 pvalue = UIAT.test()
 
