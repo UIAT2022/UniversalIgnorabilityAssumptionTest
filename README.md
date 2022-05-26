@@ -24,14 +24,14 @@ Requirements
 * scipy 1.5.2
 
 
-example
+Example
 =============
 ```python
 import uiat
 
 UIAT = uiat.UniversalIgnorabilityAssumptionTest(cause=A,effect=Y,explorer=Z,covariates=C,dtype="continuous",verbose=False) 
 # explorer means an UIV or a surrogate for UIV. dtype means the type of data. 
-# Now the package provides options for continuous case(all the variables are continuous) or mixed case(all the variables but for Y are categorical data).
+# Now the package provides options for continuous case(all the variables are continuous) or mixed case(all the variables except Y are categorical data).
 
 pvalue = UIAT.test()
 
