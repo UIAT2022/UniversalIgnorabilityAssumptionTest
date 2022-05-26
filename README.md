@@ -35,5 +35,5 @@ UIAT = uiat.UniversalIgnorabilityAssumptionTest(cause=A,effect=Y,explorer=Z,cova
 
 pvalue = UIAT.test()
 
-print(pvalue) # H0: Ignorability assumption is satisfied. vs. H1: not H0.
+print(pvalue) # H0: Ignorability assumption is satisfied (i.e., C is an admissible set). vs. H1: not H0.
 ```
