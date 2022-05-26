@@ -30,9 +30,10 @@ example
 import uiat
 
 UIAT = uiat.UniversalIgnorabilityAssumptionTest(cause=A,effect=Y,explorer=Z,covariates=C,dtype="continuous",verbose=False) 
-#explorer means an UIV or a surrogate for UIV. dtype means the type of data. Now the package provides options for continuous case or mixed case.
+# explorer means an UIV or a surrogate for UIV. dtype means the type of data. 
+# Now the package provides options for continuous case(all the variables are continuous) or mixed case(all the variables but for Y are categorical data).
 
 pvalue = UIAT.test()
 
-print(pvalue) #H0: Ignorability assumption is satisfied. vs. H1: not H0.
+print(pvalue) # H0: Ignorability assumption is satisfied. vs. H1: not H0.
 ```
