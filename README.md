@@ -7,7 +7,7 @@ Repository
 
 * Codes : contains the codes for DWHT, CLRT, UIAT. Note that the codes of DWHT and CLRT are the modified version of the original code of Guo et al. (2014), which are written by R code. and They are with the simulation settings for the compliance class model case. The code for UIAT is written by python code. Note that uiat.py requires package rpy2, so that **you have to confirm that R is installed in your PC.**
 
-* Experiments : contains the code for all the numerical studies and real data analysis. They are written by python code and in the type of notebooks. In numerical studies, all the scenarios are in the baseline setting and we leave font "changeable" to denote the varying coefficients.
+* Experiments : contains the codes for all the numerical studies and real data analysis. They are written by python code and in the type of notebooks. In numerical studies, all the scenarios are in the baseline setting and we leave font "changeable" to denote the varying coefficients.
 
 
 
