@@ -29,6 +29,9 @@ example
 ```python
 import uiat
 
-print(k.__logs__) #전체 log
-print(k.__recent_update__) #최근 업데이트 내역
+UIAT = uiat.UniversalIgnorabilityAssumptionTest(cause=A,effect=Y,explorer=Z,covariates=C,dtype="continuous",verbose=False) #explorer means an UIV or a surrogate for UIV.
+
+pvalue = UIAT.test()
+
+print(pvalue) #H0: Ignorability assumption is satisfied. vs. H1: not H0.
 ```
