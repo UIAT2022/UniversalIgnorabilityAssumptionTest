@@ -1,6 +1,6 @@
 # Ignorability Assumption Test via Explorer Variables for Unmeasured Confounding in Causal Inference
 
-The following repository cantains codes for the algorithms or experiments to reproduce the results in the AISTATS 2022 paper: Ignorability Assumption Test via Explorer Variables for Unmeasured Confounding in Causal Inference
+The following repository cantains codes for the algorithms or experiments to reproduce the results in the NeurIPS 2022 paper: Test for Ignorability Assumption via Universal Instrumental Variables for Unmeasured Confounding in Causal Inferece
 
 Repository 
 ===========
@@ -22,3 +22,13 @@ Requirements
 * xgboost 1.4.2
 * statsmodels 0.12.0
 * scipy 1.5.2
+
+
+example
+=============
+```python
+import uiat
+
+print(k.__logs__) #전체 log
+print(k.__recent_update__) #최근 업데이트 내역
+```
