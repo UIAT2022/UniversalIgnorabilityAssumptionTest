@@ -1,4 +1,4 @@
-# Ignorability Assumption Test via Explorer Variables for Unmeasured Confounding in Causal Inference
+# Test for Ignorability Assumption via Universal Instrumental Variables for Unmeasured Confounding in Causal Inferece
 
 The following repository cantains codes for the algorithms or experiments to reproduce the results in the NeurIPS 2022 paper: Test for Ignorability Assumption via Universal Instrumental Variables for Unmeasured Confounding in Causal Inferece
 
